@@ -5,4 +5,8 @@ nav:
   - O projekcie: about.md
   - Kod: code.md
 theme:
-  name: readthedocs
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
