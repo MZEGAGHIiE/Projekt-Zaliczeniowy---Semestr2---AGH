@@ -1,8 +1,8 @@
 ﻿# Langton's Ant
 
-Langton's Ant is a two-dimensional universal Turing machine with a very simple set of rules, yet complex emergent behavior.
+Langton's Ant to dwuwymiarowa uniwersalna maszyna Turinga z bardzo prostym zestawem reguł, a mimo to generująca złożone zachowania emergentne.
 
-- **Created by**: Chris Langton (1986)
-- **Type**: Cellular automaton
+- **Stworzona przez**: Chris Langton (1986)
+- **Typ**: Automat komórkowy
 
-Navigate to **About** to learn how the ant moves.
+Przejdź do **O projekcie**, aby dowiedzieć się, jak porusza się mrówka.
