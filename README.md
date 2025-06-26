@@ -6,3 +6,10 @@ Hi there!
 
 Projekt zaliczeniowy o Mrówce Langtona na przedmiot Systemy wspomagania pracy grupowej.
 Pracę wykonał w 100% Michał Zegar (grupa jednoosobowa) - nr albumu 428708.
+
+
+Aby uruchomić tę stronę lokalnie:
+
+pip install mkdocs mkdocs-material
+
+mkdocs serve
