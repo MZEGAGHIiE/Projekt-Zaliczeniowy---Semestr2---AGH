@@ -8,22 +8,22 @@
     def __init__(self, grid_size=100, steps=11000):
         self.grid_size = grid_size
         self.steps = steps
-        # Initialize grid: 0 = white, 1 = black
+        # Zainicjuj siatkę: 0 = biały, 1 = czarny
         self.grid = np.zeros((grid_size, grid_size), dtype=int)
-        # Start ant in center
+        # Rozpocznij z mrówką na środku
         self.x, self.y = grid_size // 2, grid_size // 2
-        # Directions: 0=up, 1=right, 2=down, 3=left
+        # Kierunki: 0=góra, 1=prawo, 2=dół, 3=lewo
         self.direction = 0
 
     def step(self):
-        # Flip color
+        # Zmień kolor
         self.grid[self.x, self.y] ^= 1
-        # Turn: white->right, black->left
+        # Skręt: biały->prawo, czarny->lewo
         if self.grid[self.x, self.y] == 0:
             self.direction = (self.direction + 1) % 4
         else:
             self.direction = (self.direction - 1) % 4
-        # Move forward
+        # Przesuń się do przodu
         if self.direction == 0:
             self.x -= 1
         elif self.direction == 1:
@@ -32,7 +32,7 @@
             self.x += 1
         elif self.direction == 3:
             self.y -= 1
-        # Wrap around
+        # Zwrot na krawędziach
         self.x %= self.grid_size
         self.y %= self.grid_size
 
@@ -61,11 +61,11 @@
 
     if __name__ == '__main__':
     ant = LangtonsAnt(grid_size=200, steps=11000)
-    # To just run and get final grid:
+    # Aby tylko uruchomić i otrzymać na końcu siatkę:
     final = ant.run()
     plt.figure(figsize=(6,6))
     plt.imshow(final, cmap='binary')
-    plt.title("Langton's Ant - Final State")
+    plt.title("Langton's Ant - Stan końcowy")
     plt.axis('off')
     plt.show()
     
