@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+﻿# Langton's Ant
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Langton's Ant is a two-dimensional universal Turing machine with a very simple set of rules, yet complex emergent behavior.
 
-## Commands
+- **Created by**: Chris Langton (1986)
+- **Type**: Cellular automaton
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Navigate to **About** to learn how the ant moves.

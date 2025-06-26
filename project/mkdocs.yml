@@ -1,1 +1,7 @@
-site_name: My Docs
+﻿site_name: Langton's Ant
+site_description: A simple static site about Langton's Ant using MkDocs
+nav:
+  - Home: index.md
+  - About: about.md
+theme:
+  name: readthedocs
