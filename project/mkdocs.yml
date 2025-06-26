@@ -4,9 +4,24 @@ nav:
   - Strona główna: index.md
   - O projekcie: about.md
   - Kod: code.md
+  - Ciekawostki: interesting.md
 theme:
   name: material
   palette:
+
+    # Light mode
     - scheme: default
-      primary: indigo
-      accent: pink
+      primary: deep orange
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
