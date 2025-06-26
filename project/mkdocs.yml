@@ -1,7 +1,8 @@
 ﻿site_name: Langton's Ant
-site_description: A simple static site about Langton's Ant using MkDocs
+site_description: Prosta strona statyczna o Langton's Ant stworzona przy użyciu MkDocs
 nav:
-  - Home: index.md
-  - About: about.md
+  - Strona główna: index.md
+  - O projekcie: about.md
+  - Kod: code.md
 theme:
   name: readthedocs
