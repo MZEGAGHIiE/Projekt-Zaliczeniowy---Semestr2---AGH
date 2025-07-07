@@ -5,7 +5,7 @@ nav:
   - O projekcie: about.md
   - Kod: code.md
   - Ciekawostki: interesting.md
-  - Deweloperskie (work in progress): deweloperskie.md
+  
 theme:
   name: material
   palette:
