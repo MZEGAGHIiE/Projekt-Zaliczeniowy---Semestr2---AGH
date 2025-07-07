@@ -5,6 +5,10 @@ nav:
   - O projekcie: about.md
   - Kod: code.md
   - Ciekawostki: interesting.md
+<<<<<<< Updated upstream
+=======
+  - Deweloperskie (work in progress): deweloperskie.md
+>>>>>>> Stashed changes
 theme:
   name: material
   palette:
